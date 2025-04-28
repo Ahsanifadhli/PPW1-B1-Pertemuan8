@@ -1,0 +1,111 @@
+/* Custom Colors */
+.bg-brown {
+    background-color: #B78259 !important;
+  }
+  
+  .text-brown {
+    color: #B78259 !important;
+  }
+  
+  /* General Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FAF0E6;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .navbar .logo-header img {
+    height: 70px;
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #C76D00 !important;
+  }
+  
+  /* Button Styling */
+  .btn-warning {
+    background-color: #C76D00 !important;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #B78259 !important;
+  }
+  
+  /* Card Styling */
+  .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Icon Box Styling */
+  .icon-box {
+    background-color: #C76D00 !important;
+    color: white;
+  }
+  
+  /* Footer Styling */
+  .site-footer {
+    background-color: #B78259;
+    color: white;
+  }
+  
+  .site-footer .contact-item i {
+    background-color: #66331a;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  /* Styling untuk Review Section */
+.review-section {
+    background-color: #B78259; /* Warna latar belakang cokelat */
+    color: white; /* Warna teks putih */
+    padding: 60px 20px; /* Padding atas-bawah dan kiri-kanan */
+  }
+  
+  .rating-section {
+    display: flex; /* Aktifkan Flexbox */
+    flex-direction: column; /* Susun elemen secara vertikal */
+    align-items: center; /* Pusatkan elemen secara horizontal */
+    justify-content: center; /* Pusatkan elemen secara vertikal */
+    gap: 15px; /* Jarak antar elemen */
+  }
+  
+  .rating-score {
+    font-size: 4rem; /* Ukuran besar untuk angka rating */
+    font-weight: bold; /* Teks tebal */
+  }
+  
+  .stars {
+    font-size: 2rem; /* Ukuran sedang untuk bintang */
+    color: gold; /* Warna emas untuk bintang */
+  }
+  
+  .review-platform {
+    font-size: 1.25rem; /* Ukuran kecil untuk nama platform */
+    font-style: italic; /* Gaya miring */
+  }
